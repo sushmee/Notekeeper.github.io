@@ -1,0 +1,103 @@
+*{
+   
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.header{
+   width: 100%;
+   line-height: 100px;
+   background-color: black;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   padding-left: 50px;
+   color: antiquewhite;
+   box-shadow: 5px 3px 15px -5px rgba(0,0,0,0.3);
+}
+footer
+{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+   text-align: center;
+   padding-bottom: 25px;
+}
+.main_note{
+    width: 500px;
+    padding:  15px 10px 5px 10px;
+    margin: 20px auto;
+   
+}
+form{
+    min-height: 50px;
+    color: darkgray;
+    padding: 15px 10px 5px 10px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 3px 5px 15px -5px rgba(0,0,0,0.3) ;
+}
+input
+{
+    width: 100%;
+    line-height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    margin: 10px 0;
+    font-weight: bold;
+}
+textarea
+{
+    width: 100%;
+    line-height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+.MuiButton-root .plus_sign{
+    font-size: 45px;
+    font-weight: 900;
+    color: rgb(46, 36, 21);
+    cursor: pointer;
+    z-index: 222;
+    background: transparent;
+    padding-left: 10px;
+}
+.deleteIcon{
+    width: 0.7em;
+    height: 0.7em;
+}
+
+.note .btn:hover{
+    background-color: rgb(208, 245, 166);
+}
+.note .btn{
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: rgb(65, 63, 62);
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 3px 3px 15px -10px rgba(0,0,0,0.5);
+    border-radius: 5%;
+}
+.note{
+    float: left;
+    margin: 16px;
+    width: 240px;
+    padding: 10px;
+    background-color: beige;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+}
